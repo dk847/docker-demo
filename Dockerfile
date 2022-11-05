@@ -25,4 +25,3 @@ COPY . $APP_HOME
 RUN chown -R app:app $APP_HOME
 USER app
 RUN cd $APP_HOME
-# RUN python manage.py collectstatic --noinput
