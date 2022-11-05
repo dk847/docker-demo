@@ -12,7 +12,7 @@
 ### Commands
 ```
 docker compose build
-docker compose up -d
+docker compose up
 
 docker compose ps
 docker compose logs web --follow
