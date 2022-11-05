@@ -1,0 +1,10 @@
+<h1>Dance Class Schedule</h1>
+
+{% for dance_class in dance_classes %}
+    <b>Teacher: </b>{{ dance_class.teacher }}
+    <br>
+    <b>Location: </b>{{ dance_class.location }}
+    <br>
+    <b>Date: </b>{{ dance_class.date }}
+    <br><hr>
+{% endfor %}
