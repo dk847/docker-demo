@@ -7,7 +7,7 @@ from .models import DanceClass
 
 def create_dance_class(**kwargs) -> Result[str, Err]:
     """
-    Create dance class.
+    Create a `DanceClass` record.
     """
 
     if DanceClass.objects.filter(**kwargs).exists():
@@ -20,7 +20,7 @@ def create_dance_class(**kwargs) -> Result[str, Err]:
 
 # def create_dance_class(**kwargs) -> Result[str, Err]:
 #     """
-#     A more explicit way to call these functions
+#     A more explicit way to use these functions.
 #     """
 
 #     if DanceClass.objects.filter(

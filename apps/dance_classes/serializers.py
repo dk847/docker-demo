@@ -5,7 +5,7 @@ from .models import DanceClass
 
 class DanceClassSerializer(serializers.ModelSerializer):
     """
-    Used to validate and convert request data into Python types.
+    Validates and converts request data into Python types.
     """
 
     class Meta:
@@ -19,7 +19,7 @@ class DanceClassSerializer(serializers.ModelSerializer):
 
 # class DanceClassSerializer(serializers.Serializer):
 #     """
-#     A more explicit way to write the serializer
+#     A more explicit way to write the serializer.
 #     """
 
 #     teacher = serializers.CharField(max_length=30)

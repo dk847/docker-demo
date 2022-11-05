@@ -3,7 +3,7 @@ from django.db import models
 
 class DanceClass(models.Model):
     """
-    Modeling the SQL table
+    A SQL table that models dance classes.
     """
 
     teacher = models.CharField(max_length=30)

@@ -1,5 +1,4 @@
 # Using Django Rest Framework to write Rest API endpoints
-
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -36,7 +35,6 @@ class DanceClassCreateListAPIView(APIView):
 
 
 # Using regular Django to write Fullstack views
-
 from django.shortcuts import render
 from django.views.generic import View
 
